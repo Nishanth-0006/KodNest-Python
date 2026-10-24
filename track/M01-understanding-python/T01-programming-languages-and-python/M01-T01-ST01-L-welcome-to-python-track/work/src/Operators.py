@@ -68,5 +68,25 @@ a = 10
 b = 10
 print(a is b)   #True
 print(a is not b) #False
-print(a==b)
-print(a!=b)
+print(a==b) #True
+print(a!=b) #False
+
+#Membership Operators
+a = [1 , 2 , 3 , 4 , 5 ]
+print(1 in a)   #True
+print(1 not in a) #False
+print(6 in a)   #False
+print(6 not in a) #True
+
+#Bitwise Operators
+a = 2
+b = 3
+print(a & b) #2
+print(a | b) #3
+print(a ^ b) #1
+
+a = 5
+print(~a)    #-3
+print(~b)    #-4
+print(a << b) #4
+print(a >> b) #1

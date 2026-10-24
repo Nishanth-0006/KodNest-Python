@@ -57,3 +57,15 @@ def square():
     n = 5 * 5
     return n
 print (square())
+
+# ip and no op
+def square(n):
+   res = n * n
+   print(res)
+square(3)
+
+# ip and op
+def square(n):
+    return n * n
+res = (square(1))
+print(res)
